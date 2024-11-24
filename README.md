@@ -54,5 +54,39 @@ Stellen Sie sicher, dass Sie die folgenden Tools installiert haben:
 
 - [A. El Yacoubi](https://github.com/AhmedElyacoubiForJ)
 
-> Cleaned up InvoiceAutomation and finalized migration to Camunda-LeaveRequest
+## Struktur des Projektes
+```
+src/
+└── main/
+    ├── java/
+    │   └── edu.yacoubi.LeaveRequest/
+    │       ├── servcie/
+    │       │   └── delegate/
+    │       │       ├── UpdateLeaveDelagate.java
+    │       │       └── ValidateVacationDaysDelegate.java
+    │       ├── util/
+    │       │   ├── VacationValidator.java
+    │       │   └── ValidationConstants.java
+    │       └── Main.java
+    └── resources/
+        ├── archive/
+        │   └── process.bpmn
+        ├── application.yaml
+        └── LeaveRequestProcess.bpmn
+z_docs/
+├── leave-request-process.png
+└── LeaveRequestProcess.md
+.gitattributes
+.gitignore
+pom.xml
+README.md
+```
+
+## BPMN Prozessdiagramm
+
+Hier ist das Prozessdiagramm des Urlaubsantrags:
+
+![Urlaubsantrag Prozessdiagramm](z_docs/leave-request-process.png)
+
+
 
