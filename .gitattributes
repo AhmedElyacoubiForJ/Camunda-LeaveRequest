@@ -1,0 +1,10 @@
+* text=auto
+*.sh eol=lf
+*.bat eol=crlf
+*.properties eol=lf
+*.yaml eol=lf
+*.yml eol=lf
+*.bpmn eol=lf
+*.xml eol=lf
+*.java eol=lf
+*.md eol=lf
